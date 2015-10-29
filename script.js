@@ -1,4 +1,5 @@
-﻿//全局变量
+﻿/*eslint-env browser */
+//全局变量
 mapOffset = 2; //地图大小偏移量
 maxSize = 300; //地图大小限制
 liveCellColor = 'rgb(0,0,0)'; //活细胞颜色
