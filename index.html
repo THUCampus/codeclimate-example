@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LifeGame</title>
+	</head>
+	<body>
+		<div>
+			<canvas id="myCanvas" width="600" height="600" style="border: 5px black solid"></canvas>
+			<div style="margin:1em; margin-top:0; padding:1em; position:absolute; top:0; left:600px">
+				<p>
+		       		<input id="mySizeInput" type="text" style="height:25px">
+		       		<button id="SetSize" style="font-size:20px">SetSize</button>
+		       	</p>
+		       	<p>
+		       		<input id="interval" type="range" defaultValue="100" min="30" max="150">
+		       		<button id="setInterval" style="font-size:20px">SetInterval</button>
+		       	</p>
+		       	<p>
+		       		<input id="rate" type="range" defaultValue="5" min="0" max="10">
+		       		<button id="setRate" style="font-size:20px">SetRate</button>
+		       	</p>
+		       	<p>
+		    		<button id="start" style="font-size:20px">START</button>
+		    		<button id="myState" style="font-size:20px">RUN</button>
+		    		<button id="reset" style="font-size:20px">RESET</button>
+		    	</p>
+		    </div>
+		</div>
+	</body>    
+	<script src="script.js"></script>
+	<script src="bind.js"></script>
+</html>
